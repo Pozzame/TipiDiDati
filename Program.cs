@@ -1,4 +1,5 @@
-﻿string nome = Convert.ToString(10);
+﻿Console.Clear();
+string nome = Convert.ToString(10);
 nome += 2;
 Console.WriteLine(nome);
 if (int.TryParse(nome, out int number)){
